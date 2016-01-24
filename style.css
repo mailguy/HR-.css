@@ -2040,3 +2040,140 @@ Media Queries
 	}
 
 }
+
+/* GF Custom */
+/* GF Remove padding from non-used site-inner below navigation */
+.site-inner {
+	clear: both;
+	padding-top: 0px;
+}
+
+/*
+GF Content Area
+---------------------------------------------------------------------------------------------------- */
+/* Entries - if remove padding - top, change 40px to 0px
+--------------------------------------------- */
+
+.entry {
+	background-color: #fff;
+	/* hide grey line at bottom of page -had to do this up top under .entry also- box-shadow: 0 2px rgba(0, 0, 0, 0.05); */
+	margin-bottom: 40px;
+	padding: 40px 60px 60px;
+}
+
+/* Entries header - removed boarder-left to 0px, change marging-left to -54px from -60 to align with body text
+--------------------------------------------- */
+.entry .entry-header .entry-title {
+	border-left: 0px solid #ed1c24; 
+	margin-left: -54px;
+	padding: 20px 54px;
+}
+
+
+/* hide home title on home page only
+--------------------------------------------- */
+.home .entry-header {
+display: none;
+}
+
+/* hide other page titles
+--------------------------------------------- */
+.post-7 .entry-header, 
+.post-9 .entry-header, 
+.post-11 .entry-header, 
+.post-13 .entry-header, 
+.post-17 .entry-header, 
+.post-15 .entry-header, 
+.post-92 .entry-header, 
+.post-19 .entry-header, 
+.post-51 .entry-header, 
+.post-103 .entry-header, 
+.post-21 .entry-header,
+.post-172 .entry-header
+{
+display: none;
+}
+
+
+/*
+Sidebars
+---------------------------------------------------------------------------------------------------- */
+/* Sidebar - if remove padding - top, change 40px to 0px
+--------------------------------------------- */
+
+.sidebar .widget {
+	background-color: #ffffff;
+	/* box-shadow: 0 2px rgba(0, 0, 0, 0.05); */
+	padding: 40px;
+}
+
+/* Sidebar - changed border-left to 0px and bg color to #fff
+                Changed margin-left to -35 from -40 to align with sidebar text
+--------------------------------------------- */
+.sidebar .widget-title {
+	background-color: #ffffff;
+	border-left: 0px solid #91268f;
+	margin-left: -55px;
+	padding: 20px 40px 20px 34px;
+}
+
+/* Footer widgets
+--------------------------------------------- */
+.footer-widgets {
+	text-align:center;
+}
+
+/* custom button <a class="btn"...
+--------------------------------------------- */
+a.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ed1c24;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  background: #91268f;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/* sidebar widgets font-size and color -not used-
+--------------------------------------------- */
+
+h4.widget-title {
+	font-size: 30px;
+	margin-bottom: 20px;
+    color: #91268f;
+} 
+
+/* sidebar widgets h2 title shift slightly left
+--------------------------------------------- */
+
+.textwidget h2 {
+    margin-left: -1px;
+} 
+
+/* Custom header for pages with over written titles -ie home and about
+--------------------------------------------- */
+.gf-custom-header {
+	border-left: 0px solid #ed1c24; 
+	margin-left: -54px;
+	padding: 20px 54px;
+      color: #blue;
+}
+
+/* Custom text styles
+--------------------------------------------- */
+.small-txt {
+	font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
