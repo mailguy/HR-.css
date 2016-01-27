@@ -2177,3 +2177,19 @@ h4.widget-title {
     font-size: 14px;
     line-height: 16px;
 }
+
+/* Custom background image
+--------------------------------------------- */
+article {
+	background-image: url("../wp-content/uploads/2015/12/speech-bubble-Red.png");
+        background-repeat: no-repeat;
+        background-position: right top 100px;
+        background-size: 538px 647;
+}
+
+/* Custom background image - image bleeds into footer
+--------------------------------------------- */
+.entry {
+    margin-bottom: 0px;
+}
+
