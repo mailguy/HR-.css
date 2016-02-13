@@ -245,7 +245,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: SF Orson Casual Heavy;
+	font-family: 'SF Orson Casual Heavy', sans-serif;
     color: #ed1c24;
 	font-weight: 300;
 	line-height: 1.2;
@@ -253,7 +253,7 @@ h6 {
 }
 
 h1 {
-	font-family: SF Orson Casual Heavy;
+	font-family: 'SF Orson Casual Heavy', sans-serif;
     font-size: 36px;
 }
 
@@ -2183,7 +2183,7 @@ h4.widget-title {
 /* Custom background image
 --------------------------------------------- */
 article {
-	    background-image: url("http://localhost/heart-genesis/wp-content/uploads/2015/12/speech-bubble-Red.png");
+	    background-image: url("http://www.heartrecruitment.com.au/wp-content/uploads/2015/12/speech-bubble-Red.png");
         background-repeat: no-repeat;
         background-position: right top 100px;
         background-size: 538px 647px;
@@ -2191,4 +2191,14 @@ article {
 
 .entry {
     margin-bottom: 0px;
+}
+
+/* phone number in header
+--------------------------------------------- */
+.phoneno {
+	font-family: 'SF Orson Casual Heavy', sans-serif;
+    color: #ed1c24;
+	font-weight: 300;
+    font-size: 30px;
+	line-height: 1.2;
 }
